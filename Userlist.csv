@@ -1,0 +1,11 @@
+Firstname,Lastname,Maildomain,SAM,OU,Password,Description,mail,extensionAttribute1
+Blake,Smith,redgold.com,bsmith,"OU=Consultants,OU=Users No Policy,OU=REDGOLD W7,DC=redgold,DC=com",H4Wt2QQh6omzvvA8N,Rook Security Consultant,Blake.smith@rooksecurity.com,Contractor
+Jordon,Carpenter,redgold.com,jcarpenter,"OU=Consultants,OU=Users No Policy,OU=REDGOLD W7,DC=redgold,DC=com",m3jSQlLwhTkboWdGv,Rook Security Consultant,Jordon.carpenter@rooksecurity.com,Contractor
+Damien,Sullivan,redgold.com,dsullivan,"OU=Consultants,OU=Users No Policy,OU=REDGOLD W7,DC=redgold,DC=com",lDuZ3Aoc9k4wPHlQd,Rook Security Consultant,Damien.sullivan@rooksecurity.com,Contractor
+Jordan,Rodgers,redgold.com,jrodgers,"OU=Consultants,OU=Users No Policy,OU=REDGOLD W7,DC=redgold,DC=com",EtoqBjCsYkR6TbiWs,Rook Security Consultant,Jordan.Rodgers@rooksecurity.com,Contractor
+Brandon,Roell,redgold.com,broell,"OU=Consultants,OU=Users No Policy,OU=REDGOLD W7,DC=redgold,DC=com",nrJycwKRNpd4wSz0w,Rook Security Consultant,Brandon.roell@rooksecurity.com,Contractor
+Tyler,Wojcik,redgold.com,twojcik,"OU=Consultants,OU=Users No Policy,OU=REDGOLD W7,DC=redgold,DC=com",55v2PG6H7l3VV7y19,Rook Security Consultant,Tyler.wojcik@rooksecurity.com,Contractor
+Gabe,Renfro,redgold.com,grenfro,"OU=Consultants,OU=Users No Policy,OU=REDGOLD W7,DC=redgold,DC=com",dzhczo54iMMotz1LR,Rook Security Consultant,Gabe.Renfro@rooksecurity.com,Contractor
+Colin,Martinez,redgold.com,cmartinez,"OU=Consultants,OU=Users No Policy,OU=REDGOLD W7,DC=redgold,DC=com",BEcyKWkYsyYzkqqFo,Rook Security Consultant,Colin.Martinez@rooksecurity.com,Contractor
+Daniel,Ford,redgold.com,dford,"OU=Consultants,OU=Users No Policy,OU=REDGOLD W7,DC=redgold,DC=com",lAcZhd7AE6EW5v7mw,Rook Security Consultant,daniel@rooksecurity.com,Contractor
+Jason,Acton,redgold.com,jacton,"OU=Consultants,OU=Users No Policy,OU=REDGOLD W7,DC=redgold,DC=com",5BxkMnDrH4oiRosdg,Rook Security Consultant,jason.acton@rooksecurity.com,Contractor

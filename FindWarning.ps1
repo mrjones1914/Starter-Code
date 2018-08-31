@@ -1,0 +1,1 @@
+Get-Content C:\Scripts\mailboxes.csv -wait | where { $_ -match "WARNING" }

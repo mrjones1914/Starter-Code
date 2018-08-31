@@ -1,0 +1,2 @@
+﻿Import-Module activedirectory
+Get-ADuser -filter * -Properties *|where{$_.enabled -eq $False -and $_.LastLogonDate -ge (Get-Date).AddDays(-30)}|Select Name, SAMAccountname, Mail, Displayname, Modified

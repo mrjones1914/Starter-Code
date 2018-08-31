@@ -1,0 +1,6 @@
+﻿    <#    Imports Active Directory users to Active Directory groups using a CSV     MRJ 10.1.2015    This script will take the information in the CSV and add the users or role groups specified in the User column security group specified in the Group column        Usage:    .\add_users_to_multiple_groups.ps1 -CSV c:\temp\list.csv    #>[CmdletBinding()]param(    [Parameter(Mandatory=$True, Helpmessage="Specify full path to CSV (i.e c:\temp\list.csv")]    [string]$CSV   )BEGIN{    # Check if the user has Administrative privileges. Throw a warning and stop if not.    If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
+        [Security.Principal.WindowsBuiltInRole] "Administrator"))
+    {
+        Write-Warning "You are not running this as a domain administrator. Run it again in an elevated prompt."
+	    Break
+    }    try {    Import-Module ActiveDirectory    }    catch {    Write-Warning "The Active Directory module was not found"    }    try {    $Members = Import-CSV $CSV    }    catch {    Write-Warning "The CSV file was not found"    }}PROCESS{    foreach($Member in $Members){        try{            Add-ADGroupMember $Member.Group -Members $Member.User -ErrorAction Stop -Verbose        }        catch{        }    }}END{ }
