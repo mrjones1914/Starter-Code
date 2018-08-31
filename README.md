@@ -1,3 +1,2 @@
 # Starter-Code
-Trying out new stuff here
-I sit by the door
+What I've done since I started learning to write
