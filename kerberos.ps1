@@ -1,0 +1,2 @@
+﻿Get-Eventlog Security -newest 10 | where {$_.eventid -eq '4625'} | ConvertTo-Csv | out-file 'M:\Engineering\kerberos.csv'
+Get-Eventlog Security -newest 10 | where {$_.eventid -eq '4625'} | Format-Table –Property Source,EventID,TimeWritten,Category -AutoSize

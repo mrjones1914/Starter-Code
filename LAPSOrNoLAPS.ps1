@@ -1,0 +1,2 @@
+﻿Get-ADComputer –Filter * -SearchBase "OU=Servers,OU=Computers and Servers,DC=redgold,DC=com" -SearchScope Subtree -Properties * |`
+ select -Property name,ms-mcs-AdmPwd | Export-Csv c:\Reports\laps.csv

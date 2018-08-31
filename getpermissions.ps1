@@ -1,0 +1,1 @@
+﻿Get-ChildItem S:\DC -recurse | Get-Acl | export-csv c:\temp\permissions.csv
